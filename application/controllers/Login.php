@@ -34,5 +34,6 @@ class Login extends CI_Controller {
 		$password = $this->input->post('password');
 
 		$combine = array('email' => $email, 'password' => $password);
+		$query = $this->db->get_where('admin', $combinet)
 	}
 }
