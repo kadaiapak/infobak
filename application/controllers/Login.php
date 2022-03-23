@@ -10,7 +10,7 @@ class Login extends CI_Controller {
 	}
 
 	public function index()
-	{
+	{	
 		$data['title'] = 'Info BAK';
 		$this->form_validation->set_rules('email', 'Email', 'required',
                         array('required' => 'Masukkan email')
@@ -34,6 +34,6 @@ class Login extends CI_Controller {
 		$password = $this->input->post('password');
 
 		$combine = array('email' => $email, 'password' => $password);
-		$query = $this->db->get_where('admin', $combinet)
+		$query = $this->db->get_where('admin', $combine);
 	}
 }
