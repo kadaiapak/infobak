@@ -5,7 +5,7 @@
       <a href="<?= base_url(); ?>vendor/index2.html" class="h1"><b>Admin</b>LTE</a>
     </div>
     <div class="card-body">
-      <p class="login-box-msg">Edit</p>
+      <p class="login-box-msg">Edit yang Kedua</p>
 
       <form action="<?= base_url(); ?>login/check_login" method="post">
         <div class="input-group mb-3">
