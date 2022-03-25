@@ -16,7 +16,7 @@ class Login_m extends CI_Model
 			$this->session->set_userdata('name',$row->name);
 	
 			$this->session->set_flashdata('flash_mesage', 'Login Successful');
-			redirect(base_url(). 'dashboard');	
+			redirect(base_url(). 'admin/dashboard');	
 		}
     }
 
