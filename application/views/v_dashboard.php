@@ -261,7 +261,7 @@
                     <!-- End Contact Item -->
                     <li>
                       <a href="#">
-                        <img class="contacts-list-img" src="dist/img/user8-128x128.jpg" alt="User Avatar">
+                        <img class="contacts-list-img" src="<?= base_url(); ?>vendor/dist/img/user8-128x128.jpg" alt="User Avatar">
 
                         <div class="contacts-list-info">
                           <span class="contacts-list-name">
